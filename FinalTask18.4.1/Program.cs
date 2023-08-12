@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace FinalTask18._4._1
 {
@@ -7,8 +8,9 @@ namespace FinalTask18._4._1
     {
         public static string filePath = Environment.GetFolderPath(Environment.SpecialFolder.DesktopDirectory) + @"\YourVideo.mp4";
         //private static string VideoURL = "https://www.youtube.com/watch?v=JT9tHO2vBF0";
+        //const string defaultVideoName = "https://www.youtube.com/watch?v=A7MNA-qMOMM";
 
-        static void Main()
+        static async Task Main()
         {
             Console.OutputEncoding = Encoding.UTF8;
 
